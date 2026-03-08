@@ -11,7 +11,7 @@ const store = new SignerStore();
 await store.init();
 
 const server = new McpServer({
-  name: "wallet-mcp",
+  name: "ulu-wallet-mcp",
   version: "0.1.0",
 });
 
